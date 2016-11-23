@@ -114,8 +114,8 @@ void PrintAllPossibleCombinations(std::string PossibleDigits, unsigned long Leng
 ####Parameters
  - std::string **PossibleDigits**
  
- A string containing representative characters for all possible values the generated characters.
- Example: "01" for binary, "01234567" for octal, or "0123456789ABCDEF" for hexadecimal.
+ A string containing representative characters for all possible values of the generated characters.
+ Example: "**01**" for binary, "**01234567**" for octal, or "**0123456789ABCDEF**" for hexadecimal.
  - unsigned long **Length**
  
  Number of digits/characters in the generated numbers/strings.
