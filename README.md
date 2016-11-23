@@ -9,8 +9,8 @@ Extensible hight performance permutation algorithms for effectively generating p
  - [PrintAllPossibleStrings.h](#PrintAllPossibleStrings.h)
   - [void PrintAllPossibleCombinations(std::string PossibleDigits, unsigned long Length);](#PrintAllPossibleCombinations(PossibleDigits,Length))
   
-##Permutation.h(#Permutation.h)
-###Factorial(n)(#Factorial(n))
+##Permutation.h
+###Factorial(n)
 ##nPr(n,r)
 ###PrintAllPossiblePermutations(n,r)
 ###GetPermutation(n,r,PermutationID)
