@@ -1,5 +1,5 @@
 # Permuter
-Extensible hight performance permutation algorithms for effectively generating posibilities
+Extensible hight performance permutation algorithms for effectively generating posibilities.
 ##Content
  - [**Permutation.h**](#permutationh)
   - [Factorial(n);](#factorialn)
@@ -14,7 +14,7 @@ Extensible hight performance permutation algorithms for effectively generating p
 
 
 ###Factorial(n);
-A simple function for calculating the factorial of a number
+A simple function for calculating the factorial of a number.
 ####Syntax
 ```C++
 unsigned long Factorial(unsigned n);
@@ -102,7 +102,7 @@ std::string GetPermutation(unsigned char n, unsigned char r, unsigned long Permu
 
 
 ###PrintAllPossibleCombinations(PossibleDigits,Length);
-A function that prints all possible strings of size **Length** where each character may hold any value of **PossibleDigits** (the same value can be repeated).
+A function that prints all possible strings of size **Length** where each character may hold any value of **PossibleDigits**. (the same value can be repeated).
 ####Syntax
 ```C++
 void PrintAllPossibleCombinations(std::string PossibleDigits, unsigned long Length)
