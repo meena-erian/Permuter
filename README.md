@@ -20,12 +20,14 @@ A simple function for calculating the factorial of a number
 unsigned long Factorial(unsigned n);
 ```
 ####Parameters
- - unsigned n
+ - unsigned **n**
+ 
  A number to calculate its factorial.
  
 ####Return value
  - unsigned long
- The value of factorial n
+ 
+ The value of factorial **n**
  
  
  
@@ -37,13 +39,16 @@ A simple function for calculating number of possible subsets of **r** elements f
 unsigned long nPr(unsigned n, unsigned r);
 ```
 ####Parameters
- - unsigned n
+ - unsigned **n**
+ 
  Number of elements to be permuted.
- - unsigned r
+ - unsigned **r**
+ 
  Number of elements for each ordered subset.
  
 ####Return value
  - unsigned long
+ 
  The number of possible permutations of a subset of r elements from a set of n elements.
  
  
@@ -56,9 +61,11 @@ A function that prints all possible permutations of **n** elements ordered in a 
 void PrintAllPossiblePermutations(unsigned char n, unsigned char r);
 ```
 ####Parameters
- - unsigned char n
+ - unsigned char **n**
+ 
  Number of elements to be permuted.
- - unsigned char r
+ - unsigned char **r**
+ 
  Number of elements for each ordered subset.
  
 ####Return value
@@ -74,11 +81,14 @@ A function that directly generates the permutation number **PermutationID** of *
 std::string GetPermutation(unsigned char n, unsigned char r, unsigned long PermutationID /*base zero*/);
 ```
 ####Parameters
- - unsigned char n
+ - unsigned char **n**
+ 
  Number of elements to be permuted.
- - unsigned char r
+ - unsigned char **r**
+ 
  Number of elements for each ordered subset.
- - unsigned long PermutationID
+ - unsigned long **PermutationID**
+ 
  Disposition of a permutation to be generated. (must be between zero and nPr-1 inclusively)
  
 ####Return value
@@ -98,10 +108,12 @@ A function that prints all possible strings of size **Length** where each charac
 void PrintAllPossibleCombinations(std::string PossibleDigits, unsigned long Length)
 ```
 ####Parameters
- - std::string PossibleDigits
+ - std::string **PossibleDigits**
+ 
  A string containing representative characters for all possible values the generated characters.
  Example: "01" for binary, "01234567" for octal, or "0123456789ABCDEF" for hexadecimal.
- - unsigned long Length
+ - unsigned long **Length**
+ 
  Number of digits/characters in the generated numbers/strings.
  
 ####Return value
