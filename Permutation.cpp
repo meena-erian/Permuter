@@ -6,7 +6,7 @@ int main()
 start:
     std::cout<<"\nnPr ";
     std::cin>>n>>r;
-    if(n>r)std::cout<<"LOGIC ERROR: (n>r)\n";
+    if(r>n)std::cout<<"LOGIC ERROR: (r>n)\n";
     else
     {
         std::cout<<"\n"<<n<<"P"<<r<<"="<<nPr(n,r)<<std::endl;
