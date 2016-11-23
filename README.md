@@ -1,5 +1,5 @@
 # Permuter
-Extensible high performance permutation algorithms for effectively generating posibilities.
+Extensible high performance permutation algorithms for effectively generating possibilities.
 ##Content
  - [**Permutation.h**](#permutationh)
   - [Factorial(n);](#factorialn)
