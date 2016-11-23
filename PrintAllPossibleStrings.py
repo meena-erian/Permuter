@@ -18,7 +18,7 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-
+#Note: This program was originally created in C++ and translated literally; This Python version may require some improvements.
 
 def PrintAllPossibleCombinations(PossibleDigits,Length):
     PossibleDigits = list(PossibleDigits)
