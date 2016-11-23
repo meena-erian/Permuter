@@ -11,7 +11,7 @@ Extensible hight performance permutation algorithms for effectively generating p
   
 ##**Permutation.h**
 
-
+<br></br>
 
 ###Factorial(n);
 A simple function for calculating the factorial of a number.
@@ -29,7 +29,8 @@ unsigned long Factorial(unsigned n);
  
  The value of factorial **n**
  
- 
+<br></br>
+<br></br>
  
  
 ###nPr(n,r);
@@ -51,7 +52,8 @@ unsigned long nPr(unsigned n, unsigned r);
  
  The number of possible permutations of a subset of r elements from a set of n elements.
  
- 
+<br></br>
+<br></br>
  
  
 ###PrintAllPossiblePermutations(n,r);
@@ -71,7 +73,8 @@ void PrintAllPossiblePermutations(unsigned char n, unsigned char r);
 ####Return value
  - No return value.
 
-
+<br></br>
+<br></br>
 
 
 ###GetPermutation(n,r,PermutationID);
@@ -94,12 +97,13 @@ std::string GetPermutation(unsigned char n, unsigned char r, unsigned long Permu
 ####Return value
  - The generated permutation in the form of ASCII encoded string. (if **n** is greater than 9 it generates non-decimal characters)
 
-
+<br></br>
+<br></br>
 
 
 ##**PrintAllPossibleStrings.h**
 
-
+<br></br>
 
 ###PrintAllPossibleCombinations(PossibleDigits,Length);
 A function that prints all possible strings of size **Length** where each character may hold any value of **PossibleDigits**. (the same value can be repeated).
