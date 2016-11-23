@@ -117,7 +117,7 @@ void PrintAllPossiblePermutations(unsigned char n, unsigned char r)
         CurrentPermutation+=(char)(i+49);
         LastPermutation+=(char)(n-i+48);
     }
-    // increment algorithm is
+    // increment algorithm
     while(1)
     {
         std::cout<<CurrentPermutation<<std::endl;
