@@ -12,6 +12,7 @@ Extensible hight performance permutation algorithms for effectively generating p
 ##**Permutation.h**
 
 
+
 ###Factorial(n);
 A simple function for calculating the factorial of a number
 ####Syntax
@@ -21,9 +22,11 @@ unsigned long Factorial(unsigned n);
 ####Parameters
  - unsigned n
  A number to calculate its factorial.
+ 
 ####Return value
  - unsigned long
  The value of factorial n
+ 
  
  
  
@@ -38,9 +41,11 @@ unsigned long nPr(unsigned n, unsigned r);
  Number of elements to be permuted.
  - unsigned r
  Number of elements for each ordered subset.
+ 
 ####Return value
  - unsigned long
  The number of possible permutations of a subset of r elements from a set of n elements.
+ 
  
  
  
@@ -55,8 +60,10 @@ void PrintAllPossiblePermutations(unsigned char n, unsigned char r);
  Number of elements to be permuted.
  - unsigned char r
  Number of elements for each ordered subset.
+ 
 ####Return value
  - No return value.
+
 
 
 
@@ -73,12 +80,15 @@ std::string GetPermutation(unsigned char n, unsigned char r, unsigned long Permu
  Number of elements for each ordered subset.
  - unsigned long PermutationID
  Disposition of a permutation to be generated. (must be between zero and nPr-1 inclusively)
+ 
 ####Return value
  - The generated permutation in the form of ASCII encoded string. (if **n** is greater than 9 it generates non-decimal characters)
 
 
 
+
 ##**PrintAllPossibleStrings.h**
+
 
 
 ###PrintAllPossibleCombinations(PossibleDigits,Length);
@@ -89,6 +99,10 @@ void PrintAllPossibleCombinations(std::string PossibleDigits, unsigned long Leng
 ```
 ####Parameters
  - std::string PossibleDigits
+ A string containing representative characters for all possible values the generated characters.
+ Example: "01" for binary, "01234567" for octal, or "0123456789ABCDEF" for hexadecimal.
  - unsigned long Length
+ Number of digits/characters in the generated numbers/strings.
+ 
 ####Return value
  - No return value.
