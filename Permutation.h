@@ -107,7 +107,7 @@ std::string GetPermutation(unsigned char n, unsigned char r, unsigned long Permu
     }
 }
 
-void PrintAllPossiblePermutations(unsigned char n, unsigned char r)//(unsigned char n, unsigned char r)
+void PrintAllPossiblePermutations(unsigned char n, unsigned char r)
 {
     // first permutation is {n[0],n[1],n[2],n[3]...n[r-1]}
     // last permutation is {n[n.size()-1],n[n.size()-2],n[n.size()-3]...n[n.size()-r]}
